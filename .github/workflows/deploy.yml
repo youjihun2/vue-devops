@@ -20,7 +20,7 @@ jobs:
 
     steps:
     - name: Checkout source code
-      uses: actions/chekcout@master
+      uses: actions/checkout@master
 
     - name: Set up Node.js
       uses: actions/setup-node@master
